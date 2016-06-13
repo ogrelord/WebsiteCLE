@@ -1,0 +1,30 @@
+{
+  "name": "kenny/let_there_be_light",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kenny",
+      "email": "0905454@hr.nl"
+    },
+    {
+      "name": "Bas Buijs",
+      "email": "0843669@hr.nl"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor/"
+  },
+  "require": {
+    "jwilsson/spotify-web-api-php": "^1.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8",
+    "satooshi/php-coveralls": "^1.0",
+    "squizlabs/php_codesniffer": "^2.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "CLEMobile\\": "src/"
+    }
+  }
+}

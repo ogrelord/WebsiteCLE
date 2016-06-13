@@ -1,0 +1,65 @@
+body {
+    margin-bottom: 40px;
+}
+
+.btn {
+    border: 5px solid #29ABE2;
+    border-radius: 20px;
+}
+
+.btn * {
+    /*WERKT NOG NIET!*/
+    color: #29ABE2;
+}
+
+.btn-paddingTop {
+    margin-top: 20px;
+}
+
+.whiteFont {
+    color: #fff;
+}
+
+.jumbotron_bgimage {
+    background: #9d9d9d url("../img/head.JPG") no-repeat center / cover;
+    height: 300px;
+
+}
+
+.jumbotron_bgimage h1 {
+    color: #ffffff;
+    font-size: 36px;
+}
+
+.jumbotron_themename {
+    font: 30px solid #00cbb7;
+}
+
+.DayIcon1 {
+    background: white url("../img/icon_1.png") no-repeat center;
+    height: 100px;
+}
+
+.DayIcon2 {
+    background: white url("../img/icon_2.png") no-repeat center;
+    height: 100px;
+}
+
+.DayIcon3 {
+    background: white url("../img/icon_3.png") no-repeat center;
+    height: 100px;
+}
+
+.homepageWidget {
+    margin-bottom: 10px;
+    margin-top: 25px;
+    font-family: Asap;
+}
+
+.widgetTitle {
+    border-bottom: 1px solid #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}

@@ -1,0 +1,357 @@
+/*
+
+6 divjes onder elkaar
+1e = grote foto
+2e = navigatie/icoontjes
+3/5= gelijke grootte "licht, muziek, beeld" -> uitschuif optie
+6  = stem (even groot als vorige 3)
+*/
+
+/*- - - - - - - - - - -
+        GENERAL
+- - - - - - - - - - - -*/
+ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat;
+}
+
+p {
+    font-family: Asap;
+}
+
+/*- - - - - - - - - - -
+        LAYOUT
+- - - - - - - - - - - -*/
+
+/*- - - - - - - - - - -
+        HEADER
+- - - - - - - - - - - -*/
+header {
+    width: 100vw;
+    height: 47vh;
+    background: #9d9d9d url("../img/head.JPG") no-repeat center / cover;
+    padding: 2em;
+}
+header div:first-child{
+    height: 110px;
+}
+header .theme {
+    margin: 0 auto;
+    width: 180px;
+    text-align: center;
+}
+
+header .sub {
+    margin: 60px 0 0 0;
+}
+
+header .sub h4 {
+    width: 120px;
+}
+
+header .sub h4, i {
+    float: left;
+}
+
+header .sub i {
+    line-height: 60px;
+}
+header h1 {
+    width: 170px;
+}
+header h1, h4, i {
+    color: white;
+}
+
+h4 span {
+    color: #00cbb7;
+}
+
+h4 span:nth-child(1) {
+    color: #00cbb7;
+}
+
+.kleur1{
+    color: #2b542c;
+}
+
+header h4 span:nth-child(2) {
+    color: #3a98db;
+}
+
+.h4, h4 {
+    font-size: 30px;
+}
+
+
+/*- - - - - - - - - - -
+        NAVIGATION
+- - - - - - - - - - - -*/
+nav {
+    width: auto;
+}
+
+nav ul {
+    width: 100vw;
+    height: 85px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+    width: 33.3vw;
+    background-color: rgb(238, 236, 240);
+    height: 100px;
+    border-bottom: solid 6px transparent;
+}
+
+.active {
+    border-bottom: solid 6px #29aae1;
+}
+
+nav ul li:nth-child(1) {
+    background: white url("../img/icon_1.png") no-repeat center / 65px;
+}
+
+nav ul li:nth-child(2) {
+    background: white url("../img/icon_2.png") no-repeat center / 65px;
+}
+
+nav ul li {
+    height: 90px;
+    border-bottom:solid 6px transparent;
+}
+nav ul li:nth-child(1){
+    background: white url("../img/icon_1.png") no-repeat center / 65px;
+}
+nav ul li:nth-child(2){
+    background: white url("../img/icon_2.png") no-repeat center / 65px;
+}
+nav ul li:nth-child(3){
+    background: white url("../img/icon_3.png") no-repeat center / 65px;
+}
+
+/*- - - - - - - - - - -
+        SECTIONS
+- - - - - - - - - - - -*/
+section {
+    width: 100vw;
+    height: 120px;
+    padding: 1em;
+    clear: both;
+}
+
+section {
+    background-color: #e5e5e5;
+}
+
+.white {
+    background-color: white;
+}
+
+.content {
+    float: left;
+    height: 90px;
+}
+
+.content i, h1 {
+    float: left;
+}
+
+.content i {
+    margin: 1em 15px 1em 5px;
+    color: #666666;
+}
+.content h1, p {
+    color: #666666;
+}
+.content h1 p {
+    font-size: 15px;
+    font-weight: 100;
+}
+.content h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin: 2vh 0 10px 0;
+}
+.icon{
+    float: right;
+    margin: 1em 0 1em 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.two{
+    background: url("../img/spotify.png") no-repeat center / 50px;
+}
+.three {
+    background: url("../img/hologram.png") no-repeat center / 50px;
+}
+
+.one {
+    background: url("../img/cw1.png") no-repeat center / 70px;
+}
+
+/*.ochtend:active{*/
+    /*border-bottom: solid #00d8e1 5px;*/
+/*}*/
+
+/*.middag:active {*/
+    /*border-bottom: solid #00d8e1 5px;*/
+/*}*/
+
+/*.avond:active {*/
+    /*border-bottom: solid #00d8e1 5px;*/
+/*}*/
+
+.four {
+    background: url("../img/cw2.png") no-repeat center / 70px;
+}
+
+.five {
+    background: url("../img/cw3.png") no-repeat center / 70px;
+}
+
+.six {
+    background: url("../img/cw4.png") no-repeat center / 70px;
+}
+
+.seven {
+    background: url("../img/cw5.png") no-repeat center / 70px;
+}
+
+.eight {
+    background: url("../img/cw6.png") no-repeat center / 70px;
+}
+
+.nine {
+    background: url("../img/cw7.png") no-repeat center / 70px;
+}
+
+.ten {
+    background: url("../img/cw8.png") no-repeat center / 70px;
+}
+
+.eleven {
+    background: url("../img/cw9.png") no-repeat center / 70px;
+}
+
+.panel-body {
+    background-color: #e5e5e5;
+    width: 100vw;
+    height: 105px;
+}
+
+.panel-body2 {
+    background-color: white;
+    width: 100vw;
+    height: 200px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background: lightblue url("../img/logo_big.png") no-repeat center / 70px; /*!* of #00cbb7 ??*!*/
+    margin-left: 32vw;/* !*dit nog fixen?*!*/
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
+}
+.circle:hover{
+    background: #1b6d85 url("../img/logo_big.png") no-repeat center / 70px;
+}
+
+.midday-vulca,
+.evening-vulca,
+.midday-juno,
+.evening-juno,
+.midday-thaza,
+.evening-thaza{
+    display: none;
+}
+/*DROPDOWN 1*/
+.panel-body{
+    padding: 0;
+}
+.panel-body ul{
+    margin: 0;
+    padding: 0;
+}
+.panel-body li{
+    padding: 1em 0 1em 2em;
+}
+.panel-body li:first-child{
+    background-color: #cdcdcd;
+}
+.seablue{
+    color: #68B6C9;
+}
+.skyblue{
+    color: #3CB7FE;
+}
+/*DROPDOWN 2*/
+.panel-body2{
+    padding: 0;
+}
+.panel-body2 ul{
+    margin: 0;
+    padding: 0;
+}
+.panel-body2 li{
+    padding: 1em 0 1em 2em;
+}
+.panel-body2 li:first-child{
+    background-color: #e5e5e5;
+}
+.crimson{
+    color: #AA5B56;
+}
+.red{
+    color: #D05A66;
+}
+/*DROPDOWN 3*/
+.deeppurple{
+    color: #7389A0;
+}
+.purple{
+    color: #657CCF;
+}
+.brightpurple{
+    color: #B257DD;
+}
+.seagreen{
+    color: #1CC1A8;
+}
+.blue{
+    color: #3395F1;
+}
+.darkpurple{
+    color: #5C3867;
+}
+.lightpurple{
+    color: #BF91D5;
+}
+.forestgreen{
+    color: #5F7D73;
+}
+.lightgreen{
+    color: #96C99A;
+}
+.turqoise{
+    color: #1CC1A8;
+}
+.moss{
+    color: #5A9F76;
+}
+
+.modal-header h4 {
+    color: #000;
+}
