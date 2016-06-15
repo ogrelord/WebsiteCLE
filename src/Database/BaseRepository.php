@@ -4,8 +4,6 @@ namespace CLEMobile\Databases;
 
 use PDO;
 
-require_once "../../app/settings.php";
-
 /**
  * Class Database
  * @package System\Database
@@ -27,12 +25,12 @@ abstract class BaseRepository
      * @param $password
      * @param $database
      */
-    public function __construct()
+    public function __construct($host, $username, $password, $database)
     {
-        $this->host = DB_HOST;
-        $this->username = DB_USER;
-        $this->password = DB_PASS;
-        $this->database = DB_NAME;
+        $this->host = $host;
+        $this->username = $username;
+        $this->password = $password;
+        $this->database = $database;
         $this->connect();
     }
 

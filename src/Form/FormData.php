@@ -1,4 +1,6 @@
-<?php namespace CLEMobile\Form;
+<?php 
+
+namespace CLEMobile\Form;
 
 /**
  * Class Data

@@ -15,7 +15,9 @@
     "vendor-dir": "vendor/"
   },
   "require": {
-    "jwilsson/spotify-web-api-php": "^1.0.0"
+    "jwilsson/spotify-web-api-php": "^1.0.0",
+    "codeguy/upload": "^1.3",
+    "symfony/dependency-injection": "^2.8"
   },
   "require-dev": {
     "phpunit/phpunit": "^4.8",

@@ -1,5 +1,6 @@
 <?php
-namespace CLEMobile;
+
+namespace CLEMobile\Service\Spotify;
 
 class SpotifyWebAPIException extends \Exception
 {

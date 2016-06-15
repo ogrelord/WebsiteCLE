@@ -1,4 +1,6 @@
-<?php namespace CLEMobile\Form\Validation;
+<?php 
+
+namespace CLEMobile\Form\Validation;
 
 /**
  * Class LoginValidator

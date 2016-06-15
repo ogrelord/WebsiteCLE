@@ -2,7 +2,7 @@
 
 namespace CLEMobile\Databases;
 
-use CLEMobile\MusicCollection\Album;
+use CLEMobile\Model\Album;
 
 /**
  * Created by PhpStorm.
@@ -72,14 +72,14 @@ class AlbumRepository extends BaseRepository
 	 * Save a album to the database
 	 *
 	 * @param \CLEMobile\MusicCollection\Album $album
-	 * @return bool
+	 * @return integer ID of last inserted album
 	 */
 	public function addAlbum($album)
 	{
 		$query = "INSERT INTO albums (name, artist, genre, year, tracks, image)
                   VALUES (:userId, :name, :artist, :genre, :year, :tracks, :image)";
 		$statement = $this->connection->prepare($query);
-		return $statement->execute([
+		$statement->execute([
 			':name' => $album->getName(),
 			':artist' => $album->getArtist(),
 			':genre' => $album->getGenre(),
@@ -87,5 +87,7 @@ class AlbumRepository extends BaseRepository
 			':tracks' => $album->getTracks(),
 			':image' => $album->getImage()
 		]);
+		
+		return $this->connection->lastInsertId();
 	}
 }

@@ -1,4 +1,6 @@
-<?php namespace CLEMobile\Users;
+<?php 
+
+namespace CLEMobile\Model;
 
 /**
  * Class User

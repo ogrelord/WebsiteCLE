@@ -1,4 +1,6 @@
-<?php namespace CLEMobile\Utils;
+<?php 
+
+namespace CLEMobile\Utils;
 
 /**
  * Class Session

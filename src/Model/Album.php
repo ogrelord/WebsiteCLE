@@ -1,4 +1,6 @@
-<?php namespace CLEMobile\MusicCollection;
+<?php 
+
+namespace CLEMobile\Model;
 
 /**
  * Class Album
